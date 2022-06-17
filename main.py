@@ -1,7 +1,13 @@
+#Advanced Spam Tool v2.0 Made by DoguCigsar
+#This tool works with any messaging app that uses the enter key as send
+
 from pynput.keyboard import Key, Controller
 import time
 
 keyboard = Controller()
+
+print("<--Welcome to Advanced Spam Tool v2.0 Made by DoguCigsar-->")
+print("<--This tool works with any messaging app that uses the enter key as send-->")
 
 message = input("The message you want to spam (If left blank, the program will spam the letter A): ")
 amount = input("Amount of messages to send (If left blank the program will send 1000 messages) : ")
