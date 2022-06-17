@@ -29,4 +29,4 @@
 - The exacutable will be at the directory dist/main
 #### Linux & MacOS
 - Run "build.sh"
-- The exacutable will be at the directory dist/main
+- The exacutable will be at the directory dist/main 
