@@ -40,8 +40,7 @@ def warningSequence():
     print("GO!")
 
 
-def main(delay, amount):
-    global message
+def main(delay, amount, message):
     x = 1
 
     if (amount == ""):
@@ -55,11 +54,13 @@ def main(delay, amount):
     if (message == ""):
         message = "A"
         messageLen = len(message)
+        numMode = False
     elif (message == "message amount"):
         numMode = True
-        message = ""
+        message = "message"
     else:
         messageLen = len(message)
+        numMode = False
     warningSequence()
     while x <= amount:
         currentLetter = 0
@@ -77,4 +78,4 @@ def main(delay, amount):
         time.sleep(delay)
 
 
-main(delay, amount)
+main(delay, amount, message)
